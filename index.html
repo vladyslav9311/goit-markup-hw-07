@@ -81,13 +81,13 @@
 
         <header class="header_all">
             <nav class="menu_nav">
-                <a class="logo" style="text-decoration: none;" href="index.html"><span
+                <a class="menu_nav__logo logo" style="text-decoration: none;" href="index.html"><span
                         style="color: #2196F3;">Web</span>Studio</a>
-                <ul class="menu_ul">
-                    <li class="link-menu" id="stud"><a style="text-decoration: none;" href="index.html">Студия</a></li>
-                    <li class="link-menu" id="port"><a style="text-decoration: none;"
+                <ul class="menu_nav__menu_ul menu_ul">
+                    <li class="menu_nav__menu_ul__link-menu" id="stud"><a style="text-decoration: none;" href="index.html">Студия</a></li>
+                    <li class="menu_nav__menu_ul__link-menu" id="port"><a style="text-decoration: none;"
                             href="portfolio.html">Портфолио</a></li>
-                    <li class="link-menu" id="cont"><a style="text-decoration: none;" href="">Контакты</a></li>
+                    <li class="menu_nav__menu_ul__link-menu" id="cont"><a style="text-decoration: none;" href="">Контакты</a></li>
                 </ul>
             </nav>
             <ul class="menu_adres">
@@ -110,33 +110,32 @@
         <main>
 
             <!-- БАНЕР -->
-            <div class="banner_all img_banner">
-
-                <h1 class="title1">Эфективные решения для вашего бизнеса</h1>
-                <button id="button_baner" data-modal-open><span class="textbutn">Заказать услугу</span></button>
+            <div class="banner img_banner">
+                <h1 class="banner__title1">Эфективные решения для вашего бизнеса</h1>
+                <button id="button_baner" data-modal-open><span class="banner__textbutn">Заказать услугу</span></button>
             </div>
     </div>
 
     <!-- ПЕРЕВАГИ -->
-    <ul class="perevagy_all">
-        <li class="perevagy_spysok">
+    <ul class="perevagy_list">
+        <li class="perevagy_list__perevagy_li">
             <svg class="perevagy_svg">
                 <use href="./images/icons.svg#icon-tarelka"></use>
             </svg>
 
         </li>
 
-        <li class="perevagy_spysok">
+        <li class="perevagy_list__perevagy_li">
             <svg class="perevagy_svg">
                 <use href="./images/icons.svg#icon-clock"></use>
             </svg>
         </li>
-        <li class="perevagy_spysok">
+        <li class="perevagy_list__perevagy_li">
             <svg class="perevagy_svg">
                 <use href="./images/icons.svg#icon-diagram"></use>
             </svg>
         </li>
-        <li class="perevagy_spysok">
+        <li class="perevagy_list__perevagy_li">
             <svg class="perevagy_svg">
                 <use href="./images/icons.svg#icon-astronaut"></use>
             </svg>
@@ -151,17 +150,17 @@
             <p class="text_perevagy">Идейные соображения, а также начало повседневной работы по формированию позиции.
             </p>
         </border-box>
-        <border-box class="text_box">
+        <border-box class="perevagy__text_box">
             <p class="perevagy_title" style="font-weight: bold;">Пунктуальность</p>
             <p class="text_perevagy">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
             </p>
         </border-box>
-        <border-box class="text_box">
+        <border-box class="perevagy__text_box">
             <p class="perevagy_title" style="font-weight: bold;">Планирование</p>
             <p class="text_perevagy">Равным образом консультация с широким активом в значительной степени обуславливает.
             </p>
         </border-box>
-        <border-box class="text_box">
+        <border-box class="perevagy__text_box">
             <p class="perevagy_title" style="font-weight: bold;">Современные технологии</p>
             <p class="text_perevagy">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
         </border-box>
@@ -169,18 +168,18 @@
     <!-- КАРТИНКИ -->
     <h2 id="wwd_h2">Чем мы занимаемся</h2>
 
-    <ul class="inwork_all">
-        <li class="li_inwork">
+    <ul class="inwork">
+        <li class="inwork__listw">
             <img src="./images/img.png" alt="">
-            <p class="inwork">Десктопные приложения</p>
+            <p class="inwork__textw">Десктопные приложения</p>
         </li>
-        <li class="li_inwork">
+        <li class="inwork__listw">
             <img src="./images/img2.png" alt="">
-            <p class="inwork">Мобильные приложения</p>
+            <p class="inwork__textw">Мобильные приложения</p>
         </li>
-        <li class="li_inwork">
+        <li class="inwork__listw">
             <img src="./images/img3.png" alt="">
-            <p class="inwork">Дизайнерские решения</p>
+            <p class="inwork__textw">Дизайнерские решения</p>
         </li>
     </ul>
 
@@ -197,21 +196,21 @@
                 <h5 class="card-title">Игорь Демьянко</h5>
                 <p class="card-text">Product Designer</p>
                 <ul class="social_icons_list_test">
-                    <li class="social_icons_test">
+                    <li class="social_icons_list_test__social_icons_test">
                         <a class="social_icons_link_test" href="#">
                             <svg width="20" height="20" class="bi-instagram" viewBox="0 0 20 20">
                                 <use href="./images/icons.svg#icon-instagram"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="social_icons_test">
+                    <li class="social_icons_list_test__social_icons_test">
                         <a class="social_icons_link_test" href="#">
                             <svg width="20" height="20" class="bi-instagram" viewBox="0 0 24 24">
                                 <use href="./images/icons.svg#icon-facebook"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="social_icons_test">
+                    <li class="social_icons_list_test__social_icons_test">
                         <a class="social_icons_link_test" href="#">
                             <svg width="20" height="20" class="bi-instagram" viewBox="0 0 20 20">
                                 <use href="./images/icons.svg#icon-twitter">
@@ -220,7 +219,7 @@
 
                         </a>
                     </li>
-                    <li class="social_icons_test">
+                    <li class="social_icons_list_test__social_icons_test">
                         <a class="social_icons_link_test" href="#">
                             <svg width="20" height="20" viewBox="0 0 20 20" class="bi-instagram">
                                 <use href="./images/icons.svg#icon-linkedin">
@@ -235,21 +234,21 @@
                 <h5 class="card-title">Ольга Репина</h5>
                 <p class="card-text">Frontend Developer</p>
                 <ul class="social_icons_list_test">
-                    <li class="social_icons_test">
+                    <li class="social_icons_list_test__social_icons_test">
                         <a class="social_icons_link_test" href="#">
                             <svg width="20" height="20" class="bi-instagram" viewBox="0 0 20 20">
                                 <use href="./images/icons.svg#icon-instagram"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="social_icons_test">
+                    <li class="social_icons_list_test__social_icons_test">
                         <a class="social_icons_link_test" href="#">
                             <svg width="20" height="20" class="bi-instagram" viewBox="0 0 24 24">
                                 <use href="./images/icons.svg#icon-facebook"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="social_icons_test">
+                    <li class="social_icons_list_test__social_icons_test">
                         <a class="social_icons_link_test" href="#">
                             <svg width="20" height="20" class="bi-instagram" viewBox="0 0 20 20">
                                 <use href="./images/icons.svg#icon-twitter">
@@ -258,7 +257,7 @@
 
                         </a>
                     </li>
-                    <li class="social_icons_test">
+                    <li class="social_icons_list_test__social_icons_test">
                         <a class="social_icons_link_test" href="#">
                             <svg width="20" height="20" viewBox="0 0 20 20" class="bi-instagram">
                                 <use href="./images/icons.svg#icon-linkedin">
@@ -274,21 +273,21 @@
                 <h5 class="card-title">Николай Тарасов</h5>
                 <p class="card-text">Marketing</p>
                 <ul class="social_icons_list_test">
-                    <li class="social_icons_test">
+                    <li class="social_icons_list_test__social_icons_test">
                         <a class="social_icons_link_test" href="#">
                             <svg width="20" height="20" class="bi-instagram" viewBox="0 0 20 20">
                                 <use href="./images/icons.svg#icon-instagram"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="social_icons_test">
+                    <li class="social_icons_list_test__social_icons_test">
                         <a class="social_icons_link_test" href="#">
                             <svg width="20" height="20" class="bi-instagram" viewBox="0 0 24 24">
                                 <use href="./images/icons.svg#icon-facebook"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="social_icons_test">
+                    <li class="social_icons_list_test__social_icons_test">
                         <a class="social_icons_link_test" href="#">
                             <svg width="20" height="20" class="bi-instagram" viewBox="0 0 20 20">
                                 <use href="./images/icons.svg#icon-twitter">
@@ -297,7 +296,7 @@
 
                         </a>
                     </li>
-                    <li class="social_icons_test">
+                    <li class="social_icons_list_test__social_icons_test">
                         <a class="social_icons_link_test" href="#">
                             <svg width="20" height="20" viewBox="0 0 20 20" class="bi-instagram">
                                 <use href="./images/icons.svg#icon-linkedin">
@@ -311,21 +310,21 @@
                 <h5 class="card-title">Михаил Ермаков</h5>
                 <p class="card-text">UI Designer</p>
                 <ul class="social_icons_list_test">
-                    <li class="social_icons_test">
+                    <li class="social_icons_list_test__social_icons_test">
                         <a class="social_icons_link_test" href="#">
                             <svg width="20" height="20" class="bi-instagram" viewBox="0 0 20 20">
                                 <use href="./images/icons.svg#icon-instagram"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="social_icons_test">
+                    <li class="social_icons_list_test__social_icons_test">
                         <a class="social_icons_link_test" href="#">
                             <svg width="20" height="20" class="bi-instagram" viewBox="0 0 24 24">
                                 <use href="./images/icons.svg#icon-facebook"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="social_icons_test">
+                    <li class="social_icons_list_test__social_icons_test">
                         <a class="social_icons_link_test" href="#">
                             <svg width="20" height="20" class="bi-instagram" viewBox="0 0 20 20">
                                 <use href="./images/icons.svg#icon-twitter">

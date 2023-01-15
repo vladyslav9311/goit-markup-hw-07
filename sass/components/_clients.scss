@@ -17,18 +17,22 @@
     justify-content: center;
     align-items: center;
     display: flex;
+    &:hover {
+            border-color: #2196F3;
+            transition-duration: 250ms;
+        }
 }
 
 .logo_svg {
     fill: #AFB1B8;
+    &:hover {
+            fill: #2196F3;
+            transition-duration: 250ms;
+        }
 }
 
-.clients_logo:hover {
-    border-color: #2196F3;
-    transition-duration: 250ms;
-}
+// .clients_logo:hover {
+//     border-color: #2196F3;
+//     transition-duration: 250ms;
+// }
 
-.clients_logo:hover .logo_svg {
-    fill: #2196F3;
-    transition-duration: 250ms;
-}

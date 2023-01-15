@@ -1,4 +1,4 @@
-.inwork_all {
+.inwork {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -12,14 +12,14 @@
     z-index: -1;
 }
 
-.li_inwork {
+.inwork__listw {
     display: block;
     position: relative;
     align-items: center;
     text-align: center;
 }
 
-.inwork {
+.inwork__textw {
     position: absolute;
     bottom: 0;
     background-color: #2F303A;

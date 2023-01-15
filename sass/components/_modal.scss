@@ -51,7 +51,7 @@
 }
 
 .modal-content {
-    padding: 0px 0px 00px 00px;
+    padding: 0px 0px 0px 0px;
 }
 
 #modal-comment {
@@ -80,6 +80,10 @@
     border-radius: 4px;
     margin-bottom: 5px;
     padding-left: 30px;
+    &:hover {
+            border-color: #2196F3;
+            fill: #2196F3;
+        }
 }
 
 
@@ -126,10 +130,10 @@
     margin-right: 7px;
 }
 
-.modal-input:hover {
-    border-color: #2196F3;
-    fill: #2196F3;
-}
+// .modal-input:hover {
+//     border-color: #2196F3;
+//     fill: #2196F3;
+// }
 
 .modal-input:focus {
     border-color: #2196F3;

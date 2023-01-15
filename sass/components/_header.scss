@@ -23,7 +23,7 @@
     list-style: none;
 }
 
-.menu_ul {
+.menu_nav__menu_ul {
     box-sizing: border-box;
     display: flex;
     line-height: 16px;
@@ -47,7 +47,7 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.link-menu {
+.menu_nav__menu_ul__link-menu {
     color: #212121;
 }
 
@@ -74,12 +74,13 @@ ul {
 
 #email {
     fill: #757575;
+
+    &:hover::after {
+        fill: #2196F3;
+        transition-duration: 250ms;
+    }
 }
 
-#email::hover::after {
-    fill: #2196F3;
-    transition-duration: 250ms;
-}
 
 #tel {
     width: 170px;
@@ -87,11 +88,11 @@ ul {
     top: 20px;
     color: #000;
     padding-left: 50px;
-}
 
-#tel:hover {
-    color: #2196F3;
-    transition-duration: 250ms;
+    &:hover {
+        color: #2196F3;
+        transition-duration: 250ms;
+    }
 }
 
 a:hover {

@@ -5,7 +5,7 @@
     padding-bottom: 40px;
 }
 
-.social_icons_test {
+.social_icons_list_test__social_icons_test {
     width: 44px;
     height: 44px;
 
@@ -20,19 +20,27 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    &:hover {
+            background-color: #2196F3;
+            transition-duration: 250ms;
+            fill: #ececec;
+        }
 }
 
 .bi-instagram {
     fill: #AFB1B8;
-
+&:hover {
+        fill: #ececec;
+        transition-duration: 250ms;
+    }
 }
 
-.social_icons_link_test:hover {
-    background-color: #2196F3;
-    transition-duration: 250ms;
-}
+// .social_icons_link_test:hover {
+//     background-color: #2196F3;
+//     transition-duration: 250ms;
+// }
 
-.social_icons_link_test:hover .bi-instagram {
-    fill: #ececec;
-    transition-duration: 250ms;
-}
+// .bi-instagram:hover {
+//     fill: #ececec;
+//     transition-duration: 250ms;
+// }

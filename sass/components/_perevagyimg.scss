@@ -1,11 +1,11 @@
-.perevagy_all {
+.perevagy_list {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
 }
 
-.perevagy_spysok {
+.perevagy_list__perevagy_li {
     display: flex;
     width: 270px;
     height: 120px;

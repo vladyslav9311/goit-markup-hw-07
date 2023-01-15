@@ -18,6 +18,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    &:hover {
+            background-color: #2196F3;
+            transition-duration: 250ms;
+        }
 }
 
 .footer-icons {
@@ -31,10 +35,10 @@
     height: 10px;
 }
 
-.social_icons_link_footer:hover {
-    background-color: #2196F3;
-    transition-duration: 250ms;
-}
+// .social_icons_link_footer:hover {
+//     background-color: #2196F3;
+//     transition-duration: 250ms;
+// }
 
 .social_icons_link_test:hover .bi-instagram {
     fill: #ececec;

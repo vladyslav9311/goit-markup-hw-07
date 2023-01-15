@@ -24,7 +24,7 @@
   list-style: none;
 }
 
-.menu_ul {
+.menu_nav__menu_ul {
   box-sizing: border-box;
   display: flex;
   line-height: 16px;
@@ -47,7 +47,7 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.link-menu {
+.menu_nav__menu_ul__link-menu {
   color: #212121;
 }
 
@@ -73,8 +73,7 @@ ul {
 #email {
   fill: #757575;
 }
-
-#email::hover::after {
+#email:hover::after {
   fill: #2196F3;
   transition-duration: 250ms;
 }
@@ -86,7 +85,6 @@ ul {
   color: #000;
   padding-left: 50px;
 }
-
 #tel:hover {
   color: #2196F3;
   transition-duration: 250ms;
@@ -109,7 +107,7 @@ a:hover {
   letter-spacing: 0.03em;
 }
 
-.banner_all {
+.banner {
   padding-top: 200px;
   padding-bottom: 90px;
   overflow: hidden;
@@ -117,9 +115,6 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
   align-items: center;
-}
-
-.img_banner {
   width: 1600px;
   background-image: url(../images/Imgb.png);
   background-repeat: no-repeat;
@@ -128,7 +123,7 @@ a:hover {
   margin-top: 30px;
 }
 
-.title1 {
+.banner__title1 {
   width: 690px;
   font-weight: 900;
   font-size: 44px;
@@ -153,7 +148,7 @@ a:hover {
   height: 50px;
 }
 
-.textbutn {
+.banner__textbutn {
   width: 180px;
   font-weight: 700;
   font-size: 16px;
@@ -163,14 +158,14 @@ a:hover {
   color: #FFFFFF;
 }
 
-.perevagy_all {
+.perevagy_list {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
 }
 
-.perevagy_spysok {
+.perevagy_list__perevagy_li {
   display: flex;
   width: 270px;
   height: 120px;
@@ -203,7 +198,7 @@ a:hover {
   color: #212121;
 }
 
-.text_box {
+.perevagy__text_box {
   margin-left: 30px;
   font-weight: 400;
   line-height: 24px;
@@ -218,7 +213,7 @@ a:hover {
   color: #757575;
 }
 
-.inwork_all {
+.inwork {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -232,14 +227,14 @@ a:hover {
   z-index: -1;
 }
 
-.li_inwork {
+.inwork__listw {
   display: block;
   position: relative;
   align-items: center;
   text-align: center;
 }
 
-.inwork {
+.inwork__textw {
   position: absolute;
   bottom: 0;
   background-color: #2F303A;
@@ -355,17 +350,15 @@ a:hover {
   align-items: center;
   display: flex;
 }
-
-.logo_svg {
-  fill: #AFB1B8;
-}
-
 .clients_logo:hover {
   border-color: #2196F3;
   transition-duration: 250ms;
 }
 
-.clients_logo:hover .logo_svg {
+.logo_svg {
+  fill: #AFB1B8;
+}
+.logo_svg:hover {
   fill: #2196F3;
   transition-duration: 250ms;
 }
@@ -454,6 +447,10 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
+.social_icons_link_footer:hover {
+  background-color: #2196F3;
+  transition-duration: 250ms;
+}
 
 .footer-icons {
   fill: #ECECEC;
@@ -464,11 +461,6 @@ a:hover {
 #flink {
   width: 10px;
   height: 10px;
-}
-
-.social_icons_link_footer:hover {
-  background-color: #2196F3;
-  transition-duration: 250ms;
 }
 
 .social_icons_link_test:hover .bi-instagram {
@@ -609,6 +601,10 @@ a:hover {
   margin-bottom: 5px;
   padding-left: 30px;
 }
+.modal-input:hover {
+  border-color: #2196F3;
+  fill: #2196F3;
+}
 
 .modal-wrapper {
   position: relative;
@@ -651,11 +647,6 @@ a:hover {
 
 .check-icon {
   margin-right: 7px;
-}
-
-.modal-input:hover {
-  border-color: #2196F3;
-  fill: #2196F3;
 }
 
 .modal-input:focus {
@@ -853,7 +844,7 @@ a:hover {
   padding-bottom: 40px;
 }
 
-.social_icons_test {
+.social_icons_list_test__social_icons_test {
   width: 44px;
   height: 44px;
 }
@@ -868,17 +859,16 @@ a:hover {
   justify-content: center;
   text-align: center;
 }
+.social_icons_link_test:hover {
+  background-color: #2196F3;
+  transition-duration: 250ms;
+  fill: #ececec;
+}
 
 .bi-instagram {
   fill: #AFB1B8;
 }
-
-.social_icons_link_test:hover {
-  background-color: #2196F3;
-  transition-duration: 250ms;
-}
-
-.social_icons_link_test:hover .bi-instagram {
+.bi-instagram:hover {
   fill: #ececec;
   transition-duration: 250ms;
 }
@@ -912,15 +902,14 @@ a:hover {
   line-height: 26px;
   border-color: transparent;
 }
-
-.menu-filtr li:nth-child(n+1) {
-  padding-left: 10px;
-}
-
 .menu-filtr .link:hover {
   background-color: #2196F3;
   color: #F5F4FA;
   transition-duration: 250ms;
+}
+
+.menu-filtr li:nth-child(n+1) {
+  padding-left: 10px;
 }
 
 .cards_list {

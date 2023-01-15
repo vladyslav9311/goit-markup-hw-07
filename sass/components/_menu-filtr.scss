@@ -17,6 +17,11 @@
     font-size: 16px;
     line-height: 26px;
     border-color: transparent;
+    .menu-filtr &:hover {
+            background-color: #2196F3;
+            color: #F5F4FA;
+            transition-duration: 250ms;
+        }
 
 }
 
@@ -24,8 +29,8 @@
     padding-left: 10px;
 }
 
-.menu-filtr .link:hover {
-    background-color: #2196F3;
-    color: #F5F4FA;
-    transition-duration: 250ms;
-}
+// .menu-filtr .link:hover {
+//     background-color: #2196F3;
+//     color: #F5F4FA;
+//     transition-duration: 250ms;
+// }
